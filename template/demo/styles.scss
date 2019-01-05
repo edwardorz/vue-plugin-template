@@ -1,0 +1,139 @@
+// pixels
+$r: 4px;
+
+// colors
+$blue: #2196F3;
+
+body {
+  background-color: #f5f5f9;
+  margin: 0;
+  color: rgba(0, 0, 0, 0.75);
+}
+
+@mixin clearfix() {
+  &::after {
+    display: block;
+    content: "";
+    clear: both;
+  }
+}
+
+// 按钮
+.btn {
+  width: 100%;
+  height: 45px;
+  line-height: 45px;
+  outline: none;
+  overflow: hidden;
+  appearance: none;
+  user-select: none;
+  text-overflow: ellipsis;
+  word-break: break-word;
+  white-space: nowrap;
+  text-align: center;
+  font-size: 18px;
+  margin: 10px 0;
+  border-radius: $r;
+  background-color: rgba(255, 255, 255, 0.8);
+  border-bottom: 1px solid #e3e3e3;
+
+  &:active {
+    background-color: #ddd;
+  }
+
+  &.btn-primary {
+    color: #fff;
+    background-color: $blue;
+  }
+}
+
+
+// 表单
+.form {
+  .form-item {
+    width: 100%;
+    height: 45px;
+    line-height: 45px;
+    border-radius: $r;
+    background-color: rgba(255, 255, 255, 0.7);
+    border-bottom: 1px solid #e3e3e3;
+    margin: 10px 0;
+    font-size: 16px;
+    display: flex;
+    @include clearfix;
+    overflow: hidden;
+  }
+
+  .label {
+    padding: 0 10px;
+    display: inline-block;
+    font-weight: bold;
+    border-right: 1px solid #e6e6e6;
+    border-left: 3px solid $blue;
+  }
+
+  input {
+    color: #333;
+    font-size: 16px;
+    font-weight: 300;
+    appearance: none;
+    background: none;
+    outline: none;
+    border: none;
+    padding: 0 10px;
+    display: inline-block;
+    background-color: #fff;
+    flex: 1;
+  }
+
+  .append {
+    // width: 45px;
+    padding: 0 12px;
+    float: right;
+    text-align: center;
+    border-left: 1px solid #e6e6e6;
+    box-shadow: inset 1px 0 3px #eee;
+    color: #999;
+  }
+}
+
+
+// 页面
+.page {
+  padding: 20px 16px;
+
+  .title {
+    font-size: 18px;
+    line-height: 18px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+}
+
+.content {
+  font-size: 14px;
+
+  .desc {
+    overflow: hidden;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-bottom: 1px solid #e3e3e3;
+    padding: 0 16px;
+    border-radius: 2px;
+    color: rgba(0, 0, 0, 0.75);
+  }
+
+  .subtitle {
+    font-size: 14px;
+    line-height: 14px;
+    height: 14px;
+    margin-top: 20px;
+    vertical-align: middle;
+    padding-left: 8px;
+    border-left: 2px solid #aaa;
+    font-weight: bold;
+  }
+
+  .resolve {
+    margin: 8px 0 16px;
+  }
+}
