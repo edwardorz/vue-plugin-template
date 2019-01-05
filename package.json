@@ -1,9 +1,19 @@
 {
-  "name": "vue-plugin-template",
+  "name": "@edwardorz/vue-plugin-template",
   "version": "0.0.1",
   "description": "A template for generating vue plugin use Vue CLI 3.",
   "main": "index.js",
-  "repository": "https://github.com/edwardorz/vue-plugin-template.git",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/edwardorz/vue-plugin-template.git"
+  },
   "author": "edwardorz <edwardyuguo@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/edwardorz/vue-plugin-template/issues"
+  },
+  "homepage": "https://github.com/edwardorz/vue-plugin-template#readme",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
 }
