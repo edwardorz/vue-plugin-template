@@ -72,7 +72,7 @@ ${green(
 )}
 
 ${white('run demo:')}
-${green('yarn dev')}
+${green('yarn serve')}
 
 ${white('build:')}
 ${green('yarn build')}
