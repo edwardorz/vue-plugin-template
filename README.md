@@ -19,8 +19,16 @@ yarn serve
 
 + 使用 `vue-cli-service build --target lib` 进行编译，无需安装额外的包
 + 支持多种vue plugin形式: SFC/实例方法/全局属性、方法/directives/mixins
++ less + pug
+
 
 
 ## TODOS
 
-+ 测试 
++ 测试
++ sass支持
++ jsx
+
+## License
+
+[MIT](http://opensource.org/licenses/MIT)
