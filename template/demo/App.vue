@@ -22,7 +22,7 @@ body {
   padding: 15px 20px;
 
   .title {
-    font-size: 20px;
+    font-size: 32px;
     text-align: center;
     font-weight: bold;
   }
