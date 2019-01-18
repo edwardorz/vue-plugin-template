@@ -2,11 +2,11 @@
   "name": "{{ name }}",
   "version": "0.0.1",
   "private": true,
-  "main": "./dist/{{name}}.common.js",
+  "main": "./build/{{name}}.common.js",
   "scripts": {
     "serve": "vue-cli-service serve ./demo/main.js",
     "pages": "vue-cli-service build demo/main.js --dest docs",
-    "build": "vue-cli-service build --target lib --name {{ name }} src/index.js"
+    "build": "vue-cli-service build src/index.js --target lib --name vue-flipcard --dest build"
   },
   "dependencies": {
     "vue": "^2.5.16",
