@@ -1,3 +1,4 @@
+import Vue from 'vue'
 import {{library}} from './Plugin.vue'
 
 {{#if_eq type "component"}}
