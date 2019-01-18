@@ -16,7 +16,7 @@ export default {
 }
 </script>
 
-<style lang="pug" scoped>
+<style lang="less" scoped>
 .{{name}} {
   
 }
