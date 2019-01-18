@@ -31,6 +31,7 @@ body {
     font-size: 16px;
     color: #555;
     text-align: center;
+    margin-bottom: 30px;
   }
 }
 </style>
