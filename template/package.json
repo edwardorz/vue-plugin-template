@@ -1,10 +1,11 @@
 {
   "name": "{{ name }}",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "private": true,
-  "main": "./dist/bundle.js",
+  "main": "./dist/{{name}}.common.js",
   "scripts": {
     "serve": "vue-cli-service serve ./demo/main.js",
+    "pages": "vue-cli-service build demo/main.js --dest docs",
     "build": "vue-cli-service build --target lib --name {{ name }} src/index.js"
   },
   "dependencies": {

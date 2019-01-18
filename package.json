@@ -1,9 +1,9 @@
 {
   "name": "@edwardorz/vue-plugin-template",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "A template for generating vue plugin use Vue CLI 3.",
   "main": "index.js",
-  "keywords": ["Vue", "Vue plugin", "template"],
+  "keywords": ["vue", "vue plugin", "template"],
   "repository": "git@github.com:edwardorz/vue-plugin-template.git",
   "author": "edwardorz <edwardyuguo@gmail.com>",
   "license": "MIT",
