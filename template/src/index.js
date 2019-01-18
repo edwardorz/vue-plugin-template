@@ -1,18 +1,7 @@
-import Vue from 'vue'
 import {{library}} from './Plugin.vue'
 
 {{#if_eq type "component"}}
-function plugin (Vue) {
-  Vue.component('{{name}}', {{library}})
-}
-
-export default plugin
-const version = '__VERSION__'
-
-export {
-  {{library}},
-  version
-}
+export default {{library}}
 {{else}}
 {{ library }}.install = function (Vue, options) {
 
