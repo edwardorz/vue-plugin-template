@@ -17,7 +17,7 @@ yarn serve
 
 ## 特性 | Features
 
-+ 使用 `vue-cli-service build --target lib` 进行编译，无需安装额外的包
++ 使用 `vue-cli-service build --target lib` 进行编译
 + 支持多种vue plugin形式: SFC/实例方法/全局属性、方法/directives/mixins
 + less + pug
 
