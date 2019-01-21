@@ -6,6 +6,11 @@ module.exports = {
   devServer: {
     open: true
   },
+  configureWebpack: {
+    optimization: {
+      minimize: true
+    }
+  },
   css: { extract: argv.target !== 'lib' }
 }
 
