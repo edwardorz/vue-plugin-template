@@ -5,8 +5,9 @@
   "main": "./build/{{name}}.common.js",
   "scripts": {
     "serve": "vue-cli-service serve ./demo/main.js",
-    "pages": "vue-cli-service build demo/main.js --dest docs",
-    "build": "vue-cli-service build src/index.js --target lib --name vue-flipcard --dest build"
+    "docs": "vue-cli-service build demo/main.js --dest docs",
+    "build": "vue-cli-service build src/index.js --target lib --name vue-flipcard --dest build",
+    "build:report": "vue-cli-service build src/index.js --target lib --name vue-flipcard --dest build --report"
   },
   "dependencies": {
     "vue": "^2.5.16",
