@@ -1,6 +1,6 @@
 {
   "name": "@edwardorz/vue-plugin-template",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "description": "A template for generating vue plugin use Vue CLI 3.",
   "main": "index.js",
   "keywords": ["vue", "vue plugin", "template"],
