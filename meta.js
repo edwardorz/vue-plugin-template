@@ -47,7 +47,7 @@ module.exports = {
       type: 'string',
       required: false,
       message: '当前版本号[Current Version]',
-      default: '1.0.0'
+      default: '0.0.1'
     },
     author: {
       type: 'string',
