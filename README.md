@@ -1,5 +1,9 @@
 # vue-plugin-template
 
+![](https://img.shields.io/npm/dw/@edwardorz/vue-plugin-template.svg?style=flat-square)
+![](https://img.shields.io/github/license/edwardorz/vue-plugin-template.svg?style=flat-square)
+![](https://img.shields.io/npm/v/@edwardorz/vue-plugin-template.svg?style=flat-square)
+
 > Vue插件模板 |
 > A template for generating vue plugin use Vue CLI 3.
 
