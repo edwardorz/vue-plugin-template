@@ -43,6 +43,10 @@ yarn docs
 + jsx
 + Jekyll
 
+### Change Logs
+
++ 2019-01-22 useBuiltIns设置成false来进一步压缩编译包的大小，具体请参考Vue-CLI [#ISSUE199](https://github.com/vuejs/vue-cli/issues/1919)
+
 
 ### License
 
