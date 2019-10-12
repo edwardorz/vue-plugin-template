@@ -4,13 +4,13 @@
 ![](https://img.shields.io/github/license/edwardorz/vue-plugin-template.svg?style=flat-square)
 ![](https://img.shields.io/npm/v/@edwardorz/vue-plugin-template.svg?style=flat-square)
 
-> A template for generating vue plugin use Vue CLI 3.
+> A template for generating vue plugin use Vue CLI 3 .
 
 
-### 使用 | Usage
+### Usage
 
 ```bash
-vue init edwardorz/vue-plugin-template my-lovely-plugin
+vue init @edwardorz/vue-plugin-template my-lovely-plugin
 
 cd my-lovely-plugin
 
@@ -28,20 +28,13 @@ yarn docs
 ```
 
 
-### 特性 | Features
+### Features
 
 + 使用 `vue-cli-service build --target lib` 进行编译
 + 支持多种vue plugin形式: SFC/实例方法/全局属性、方法/directives/mixins
 + generate docs
 + less + pug
 
-
-### TODOS
-
-+ test 测试
-+ sass
-+ jsx
-+ Jekyll
 
 ### Change Logs
 
@@ -50,4 +43,4 @@ yarn docs
 
 ### License
 
-[MIT](http://opensource.org/licenses/MIT)
+This is a open-source software licensed under the [MIT license](http://opensource.org/licenses/MIT)
