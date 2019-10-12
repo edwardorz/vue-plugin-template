@@ -10,7 +10,7 @@
 
 ```sh
 # init
-$ vue init @edwardorz/vue-plugin-template my-lovely-plugin
+$ vue init edwardorz/vue-plugin-template my-lovely-plugin
 $ cd my-lovely-plugin
 
 # dev
