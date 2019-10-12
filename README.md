@@ -10,20 +10,20 @@
 ### Usage
 
 ```bash
-vue init @edwardorz/vue-plugin-template my-lovely-plugin
+# init
+$ vue init @edwardorz/vue-plugin-template my-lovely-plugin
+$ cd my-lovely-plugin
 
-cd my-lovely-plugin
-
-// dev
+# dev
 yarn serve
 
-// build
+# build
 yarn build
 
-// build with report
+# build with report
 yarn build:report
 
-// generate docs
+# generate docs
 yarn docs
 ```
 
