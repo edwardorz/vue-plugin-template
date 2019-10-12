@@ -10,18 +10,19 @@
     "build:report": "vue-cli-service build src/index.js --target lib --name vue-flipcard --dest build --report"
   },
   "dependencies": {
-    "vue": "^2.5.16",
-    "less": "^3.8.1",
-    "less-loader": "^4.1.0",
+    "vue": "^2.6.10",
+    "less": "^3.9.0",
+    "less-loader": "^5.0.0",
     "minimist": "^1.2.0",
     "pug": "^2.0.3",
     "pug-plain-loader": "^1.0.0"
   },
   "devDependencies": {
-    "@vue/cli-plugin-babel": "^3.2.0",
-    "@vue/cli-plugin-eslint": "^3.2.0",
-    "@vue/cli-service": "^3.2.0",
-    "vue-template-compiler": "^2.5.16"
+    "@vue/cli-plugin-babel": "^3.9.2",
+    "@vue/cli-plugin-eslint": "^3.9.2",
+    "@vue/cli-service": "^3.9.2",
+    "@vue/eslint-config-airbnb": "^4.0.1",
+    "vue-template-compiler": "^2.6.10"
   },
   "eslintConfig": {
     "root": true,
